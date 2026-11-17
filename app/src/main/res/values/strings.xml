@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">NEXUS AI</string>
+
+    <!-- Notification Channel -->
+    <string name="notification_channel_name">NEXUS Reminder Alarms</string>
+    <string name="notification_channel_desc">Incoming-call-style full-screen reminder alarms and follow-up actions. Not a cellular call.</string>
+
+    <!-- Dashboard & Navigation -->
+    <string name="nexus_subtitle">Personal Reminder &amp; Follow-Up Engine</string>
+    <string name="offline_badge">100% On-Device</string>
+    <string name="next_reminder_label">NEXT REMINDER</string>
+    <string name="pending_assignments_title">Pending Assignments</string>
+    <string name="no_upcoming_title">Your schedule is clear</string>
+    <string name="no_upcoming_subtitle">Type or dictate a reminder like &quot;Remind me at 6 AM to finish my mathematics assignment&quot;.</string>
+    <string name="load_samples_cta">Load Sample Schedule</string>
+
+    <!-- Actions -->
+    <string name="action_new_reminder">New Reminder</string>
+    <string name="action_test_alert">Preview Ring</string>
+    <string name="action_readiness">Readiness</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_talk_to_nexus">Talk to NEXUS</string>
+    <string name="action_snooze_10m">Snooze 10m</string>
+    <string name="action_snooze_1h">Snooze 1h</string>
+    <string name="action_mark_complete">Mark Complete</string>
+    <string name="action_reschedule">Reschedule</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_repeat_voice">Repeat Aloud</string>
+
+    <!-- Incoming Call Style Alarm Screen -->
+    <string name="incoming_alarm_header">NEXUS AI • LOCAL APP ALARM</string>
+    <string name="incoming_alarm_disclaimer">Local app alarm experience • Not a cellular call</string>
+    <string name="incoming_alarm_ringing">Ringing locally on device…</string>
+    <string name="incoming_alarm_active">NEXUS Voice Follow-Up Active</string>
+
+    <!-- Permission Rationales -->
+    <string name="perm_notif_title">Notifications Required for Alarms</string>
+    <string name="perm_notif_rationale">NEXUS uses high-priority local notifications to wake your screen and show Dismiss / Talk to NEXUS controls when a reminder fires. Without it, reminders still save locally and trigger when the app is open.</string>
+    <string name="perm_exact_title">Exact Alarm Timing</string>
+    <string name="perm_exact_rationale">On Android 12+, exact alarm access lets NEXUS ring precisely at 6:00 AM. If left off, NEXUS gracefully falls back to battery-saver inexact delivery (which may drift a few minutes under Doze).</string>
+    <string name="perm_fsi_title">Full-Screen Lock-Screen Alert</string>
+    <string name="perm_fsi_rationale">On Android 14+, Full-Screen Intent allows the incoming-call-style alarm screen to appear over the lock screen. If disabled, NEXUS shows a heads-up notification with Answer and Dismiss buttons instead.</string>
+    <string name="perm_mic_title">Microphone for Voice Dictation</string>
+    <string name="perm_mic_rationale">NEXUS uses Android on-device/system speech recognition only when you tap the microphone to dictate reminders or voice replies. Nothing is uploaded by NEXUS, and typed input always works without mic permission.</string>
+</resources>

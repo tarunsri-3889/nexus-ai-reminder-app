@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS AI",
+  "description": "Offline-first personal reminder and voice follow-up assistant with incoming-call-style alarm screen, Android TTS, and smart local scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
